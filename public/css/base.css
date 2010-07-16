@@ -1,0 +1,262 @@
+* {
+    color: #4b4b90;
+}
+body {
+    /*border: 1px solid yellow;*/
+    text-align: left;
+    padding: 5px;
+}
+iframe {
+    padding: 0px;
+    margin: 0px;
+    height: 0px;
+    width: 0px;
+}
+table {
+    table-layout: fixed;
+    margin: 0px;
+    padding: 0px;
+}
+table th {
+    text-align: center;
+}
+table tr, table td {
+    height: 30px;
+}
+table td div {
+    height: 30px;
+    overflow-y: scroll;
+    overflow-x: hide;
+}
+label {
+    font-weight: normal;
+}
+form {
+    text-align: left;
+}
+form .inputLabel {
+    float: left;
+    width: 140px;
+}
+form p {
+    margin: 2px 0px 2px 0px;
+}
+.header-container {
+    height: 100px;
+    vertical-align: middle;
+    text-align: left;
+}
+.main-logo {
+    float: left;
+}
+.session-info {
+    float: right;
+    padding: 4px;
+    margin-top: 15px;
+    text-align: left;
+    font-size: 80%;
+    line-height: 10px;
+}
+.session-info * {
+    margin: 0px;
+    padding: 0px;
+}
+.session-info ul li {
+    list-style: none;
+    color: red;
+}
+.hidden {
+    display: none;
+}
+.readonly {
+    border: none;
+}
+.encoded, .actions {
+    text-align: center;
+}
+/* Start main containers */
+.workarea-container {
+    border-top: 1px solid #90595f;
+    z-index: 1;
+    height: 440px;
+    text-align: center;
+    vertical-align: middle;
+}
+.workarea-container .subcontainer {
+    display: none;
+    border: 1px solid #90595f;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 100%;
+}
+.workarea-container .subcontainer .title {
+    height: 15px;
+    font-weight: bold;
+    font-size: 110%;
+    background: url(../images/topnav_bg.gif) repeat-x;
+}
+.workarea-container .subcontainer .title .name {
+    float: left;
+    color: #ffffff;
+}
+.workarea-container .subcontainer .title, .workarea-container .subcontainer .body {
+    padding: 6px;
+    text-align: center;
+}
+.workarea-container .subcontainer .controls {
+    text-align: center;
+}
+.footer-container {
+    border-top: 1px solid #90595f;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 80%;
+}
+.label-title {
+    margin-right: 3px;
+    font-weight: bold;
+}
+/* End main containers */
+/* Start JQM styles */
+.jqmWindow {
+    padding: 0px;
+}
+.jqmWindow .title {
+    background: url(../images/topnav_bg.gif) repeat-x;
+    height: 15px;
+    font-weight: bold;
+}
+.jqmWindow .title * {
+    color: #ffffff;
+}
+.jqmWindow .title {
+    padding: 6px;
+}
+
+.jqmWindow .body {
+    padding: 20px;
+}
+.jqmWindow .title .name {
+    float: left;
+}
+.jqmWindow .title .close {
+    float: right;
+}
+.jqmWindow .body, .jqmWindow .controls {
+    text-align: center;
+}
+.jqmWindow .controls {
+    padding: 0px 10px 10px 10px;
+}
+/* End JQM styles */
+#processStatusContainer {
+    z-index: 5000;
+    display: none;
+    position: absolute;
+    padding: 6px;
+    background-color: red;
+    color: #fff;
+    width: 100px;
+    font-weight: bold;
+}
+.cursorPointer {
+    cursor: pointer;
+}
+.button {
+    height: 25px;
+    margin: 5px;
+    color: #8d0000;
+    background-color: #bebebe;
+    border: 1px solid #000000;
+    text-align: center;
+    vertical-align: middle;
+}
+.buttonOver {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+}
+.buttonSizeSmall {
+    width: 50px;
+}
+.buttonSizeMedium {
+    width: 100px;
+}
+.buttonSizeBig {
+    width: 150px;
+}
+/* Start massupload menu styles*/
+#massuploadStatus {
+    width: 280px;
+}
+.massupload-result {
+    border-top: 1px solid #90595f;
+    height: 280px;
+}
+/* End massupload menu styles*/
+/* Start subcontainer widths */
+#loginChild {
+    margin-top: 50px;
+    width: 400px;
+    height: 150px;
+}
+#loginChild form {
+    margin: 20px;
+    text-align: center;
+}
+#loginChild form label {
+    text-align: left;
+}
+#clientAddHomeChild #messageArea {
+    margin: 20px;
+    float: left;
+    text-align: left;
+    width: 40%;
+}
+#clientAddHomeChild #formArea {
+    margin-top: 10px;
+    width: 100%;
+}
+#clientSearchMenu {
+    top: 17%;
+    left: 45%;
+    width: 700px;
+}
+#clientSearchMenu fieldset, #salesmanAddForm fieldset, #salesmanViewForm fieldset {
+    width: 100px;
+    float: left;
+    margin: 6px;
+}
+#pricelistChild .body, #pricelistShow {
+    height: 100%;
+}
+
+#pricelistShow {
+    padding: 20px 10px 10px 10px;
+}
+
+#pricelistShow div.pricelist {
+    float: left;
+    width: 200px;
+    height: 80px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #4B4B90;
+    text-align: left;
+}
+#pricelistShow div.pricelist p {
+    margin: 5px;
+}
+#pricelistCategoryContainer {
+    text-align: center;
+}
+#pricelistCategoryContainer form {
+    display: none;
+}
+#pricelistCategory {
+    width: 70%;
+    float: left;
+}
+
+/* End clientSearch menu styles*/
+

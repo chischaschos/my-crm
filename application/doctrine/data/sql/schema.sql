@@ -1,0 +1,12 @@
+CREATE TABLE customer (id INT AUTO_INCREMENT, razon_social VARCHAR(50), representante_legal VARCHAR(50), nombre_comercial VARCHAR(50), rfc VARCHAR(20), giro_comercial VARCHAR(20), salesman_id INT, sales_group VARCHAR(10), user_id INT, created_at DATETIME NOT NULL, updated_at DATETIME NOT NULL, INDEX salesman_id_idx (salesman_id), INDEX user_id_idx (user_id), PRIMARY KEY(id)) ENGINE = INNODB;
+CREATE TABLE user (id INT AUTO_INCREMENT, name VARCHAR(10), password VARCHAR(20), role VARCHAR(3), created_at DATETIME NOT NULL, updated_at DATETIME NOT NULL, PRIMARY KEY(id)) ENGINE = INNODB;
+CREATE TABLE salesman (id INT AUTO_INCREMENT, first_name VARCHAR(30), last_name VARCHAR(30), email VARCHAR(50), telephone VARCHAR(100), user_id INT, address_id INT, created_at DATETIME NOT NULL, updated_at DATETIME NOT NULL, INDEX address_id_idx (address_id), INDEX user_id_idx (user_id), PRIMARY KEY(id)) ENGINE = INNODB;
+CREATE TABLE address (id INT AUTO_INCREMENT, entre_calles VARCHAR(100), colonia VARCHAR(50), delegacion_municipio VARCHAR(50), estado VARCHAR(50), codigo_postal VARCHAR(50), country VARCHAR(50), created_at DATETIME NOT NULL, updated_at DATETIME NOT NULL, PRIMARY KEY(id)) ENGINE = INNODB;
+CREATE TABLE contact (id INT AUTO_INCREMENT, first_name VARCHAR(30), last_name VARCHAR(30), email VARCHAR(50), telephone VARCHAR(10), customer_id INT, address_id INT, created_at DATETIME NOT NULL, updated_at DATETIME NOT NULL, INDEX customer_id_idx (customer_id), INDEX address_id_idx (address_id), PRIMARY KEY(id)) ENGINE = INNODB;
+CREATE TABLE message (id INT AUTO_INCREMENT, title VARCHAR(50), description VARCHAR(200), type VARCHAR(10), created_at DATETIME NOT NULL, updated_at DATETIME NOT NULL, PRIMARY KEY(id)) ENGINE = INNODB;
+ALTER TABLE customer ADD CONSTRAINT customer_user_id_user_id FOREIGN KEY (user_id) REFERENCES user(id);
+ALTER TABLE customer ADD CONSTRAINT customer_salesman_id_salesman_id FOREIGN KEY (salesman_id) REFERENCES salesman(id);
+ALTER TABLE salesman ADD CONSTRAINT salesman_user_id_user_id FOREIGN KEY (user_id) REFERENCES user(id);
+ALTER TABLE salesman ADD CONSTRAINT salesman_address_id_address_id FOREIGN KEY (address_id) REFERENCES address(id);
+ALTER TABLE contact ADD CONSTRAINT contact_customer_id_customer_id FOREIGN KEY (customer_id) REFERENCES customer(id);
+ALTER TABLE contact ADD CONSTRAINT contact_address_id_address_id FOREIGN KEY (address_id) REFERENCES address(id);

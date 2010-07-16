@@ -1,0 +1,243 @@
+---
+Customer:
+  actAs: 
+    Timestampable:
+      created:
+        type: timestamp
+      updated:
+        type: timestamp
+  columns:
+    id:
+      primary: true
+      autoincrement: true
+      type: integer(4)
+    razon_social:
+      type: string(50)
+    representante_legal:
+      type: string(50)
+    nombre_comercial:
+      type: string(50)
+    rfc:
+      type: string(20)
+    giro_comercial:
+      type: string(20)
+    salesman_id:
+      type: integer(4)
+    sales_group:
+      type: string(10)
+    user_id:
+      type: integer(4)
+    pricelist_category_id:
+      type: integer(4)
+  relations:
+    User:
+      local: user_id
+      foreign: id
+      foreignType: one
+    PriceListCategory:
+      local: pricelist_category_id
+      foreign: id
+      foreignType: many
+
+Contact:
+  actAs: 
+    Timestampable:
+      created:
+        type: timestamp
+      updated:
+        type: timestamp
+  columns:
+    id:
+      primary: true
+      autoincrement: true
+      type: integer(4)
+    first_name:
+      type: string(30)
+    last_name:
+      type: string(30)
+    email:
+      type: string(50)
+    telephone:
+      type: string(10)
+    customer_id:
+      type: integer(4)
+    address_id:
+      type: integer(4)
+  relations:
+    Customer:
+      local: customer_id
+      foreign: id
+      foreignType: one
+      foreignAlias: Contact
+        
+Address:
+  actAs: 
+    Timestampable:
+      created:
+        type: timestamp
+      updated:
+        type: timestamp
+  columns:
+    id:
+      primary: true
+      autoincrement: true
+      type: integer(4)
+    entre_calles:
+      type: string(100)
+    colonia:
+      type: string(50)
+    delegacion_municipio:
+      type: string(50)
+    estado:
+      type: string(50)
+    codigo_postal:
+      type: string(50)
+    country:
+      type: string(50)
+  relations:
+    Contact:
+      local: id
+      foreign: address_id
+      foreignType: one
+      foreignAlias: Address
+    Salesman:
+      local: id
+      foreign: address_id
+      foreignType: one
+      foreignAlias: Address
+
+Salesman:
+  actAs: 
+    Timestampable:
+      created:
+        type: timestamp
+      updated:
+        type: timestamp
+  columns:
+    id:
+      primary: true
+      autoincrement: true
+      type: integer(4)
+    first_name:
+      type: string(30)
+    last_name:
+      type: string(30)
+    email:
+      type: string(50)
+    telephone:
+      type: string(100)
+    user_id:
+      type: integer(4)
+    address_id:
+      type: integer(4)
+  relations:
+    Customers:
+      type: many
+      class: Customer
+      local: id
+      foreign: salesman_id
+      foreignType: one
+      foreignAlias: Salesman
+    User:
+      local: user_id
+      foreign: id
+      foreignType: one
+
+User:
+  actAs: 
+    Timestampable:
+      created:
+        type: timestamp
+      updated:
+        type: timestamp
+  columns:
+    id:
+      primary: true
+      autoincrement: true
+      type: integer(4)
+    name:
+      type: string(10)
+    password:
+      type: string(20)
+    role:
+      type: string(3)
+
+Message:
+  actAs: 
+    Timestampable:
+      created:
+        type: timestamp
+      updated:
+        type: timestamp
+  columns:
+    id:
+      primary: true
+      autoincrement: true
+      type: integer(4)
+    subject:
+      type: string(50)
+    body:
+      type: string(200)
+    user_id:
+      type: integer(4)
+    is_read:
+      type: boolean
+      default: false
+  relations:
+    User:
+      local: user_id
+      foreignType: id
+      foreignType: many
+      foreignAlias: Messages
+
+Pricelist:
+  actAs:
+    Timestampable:
+      created:
+        type: timestamp
+      updated:
+        type: timestamp
+  columns:
+    id:
+      primary: true
+      autoincrement: true
+      type: integer(4)
+    name:
+      type: string(30)
+    contenttype:
+      type: string(30)
+    size:
+      type: integer(11)
+    content:
+      type: blob
+    description:
+      type: string(100)
+    pricelist_category_id:
+       type: integer(4)
+  relations:
+    PricelistCategory:
+      local: pricelist_category_id
+      foreign: id
+
+PricelistCategory:
+  actAs:
+    Timestampable:
+     created:
+        type: timestamp
+     updated:
+        type: timestamp
+  columns:
+    id:
+      primary: true
+      autoincrement: true
+      type: integer(4)
+    category_name:
+      type: string(30)
+    description:
+      type: string(100)
+    pricelist_id:
+      type: integer(4)
+  relations:
+    Pricelist:
+      local: pricelist_id
+      foreign: id

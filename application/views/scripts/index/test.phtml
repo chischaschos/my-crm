@@ -1,0 +1,11 @@
+<div>
+<h1>Submit a message:</h1>
+<?=$this->form?>
+
+<hr />
+<h1>Messages posted:</h1>
+      <?php foreach ($this->messages as $message): ?>
+          <h2><?=$message->name?> (<?=$message->posted?>)</h2>
+          <?=$message->message?>
+      <?php endforeach; ?>
+</div>

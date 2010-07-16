@@ -1,0 +1,39 @@
+<?php echo '<?xml version="1.0" encoding="ISO-8859-1"?>' ?>
+<table>
+    <metadata>
+        <title><?php echo $this->fileName ?></title>
+        <id>clientAdminTable</id>
+    </metadata>
+    <headers>
+        <header type="string" value="Nombre comercial" />
+        <header type="string" value="Nombre contacto" />
+        <header type="string" value="Apellidos contacto" />
+        <header type="string" value="Email" />
+        <header type="string" value="Telefono" />
+        <header type="string" value="Detalles" />
+    </headers>
+    <rows>
+        <?php foreach ($this->contacts as $contact): ?>
+            <row>
+                <header value="<?php echo $contact->Customer->nombre_comercial ?>" />
+                <header value="<?php echo $contact->first_name ?>" />
+                <header value="<?php echo $contact->last_name ?>" />
+                <header value="<?php echo $contact->email ?>" />
+                <header value="<?php echo $contact->telephone ?>" />
+                <?php
+                    $details = '';
+                    $details .= '<img id="client' . $contact->Customer->id . '" '
+                        . 'src="' . $this->baseUrl() . '/images/icons/user.gif"  '
+                        . 'class="viewContact cursorPointer" '
+                        .'title="Detalle-Haz click para ver los detalles del contacto" />';    
+
+                    $details .= '<img id="salesman' . $contact->Customer->Salesman->id . '" '
+                        .'src="' . $this->baseUrl() . '/images/icons/user.gif" '
+                        .'class="viewSalesman cursorPointer"  '
+                        .'title="Detalle-Haz click para ver los detalles del vendedor asignado" />';    
+                ?>
+                <header value="<?php echo $this->escape($details) ?>" class="encoded" />
+            </row>
+        <?php endforeach ?>
+    </rows>
+</table>

@@ -1,0 +1,62 @@
+<?php echo '<?xml version="1.0" encoding="ISO-8859-1"?>' ?>
+<table>
+    <metadata>
+        <title><?php echo $this->title ?></title>
+        <id><?php echo $this->id ?></id>
+    </metadata>
+    <headers>
+        <header type="string" class="dataType" value="Tipo de dato" />
+        <header type="string" class="data" value="Dato" />
+        <header type="string" class="status" value="Status" />
+        <header type="string" class="errors" value="Errores" />
+        <header type="string" class="details" value="Detalles" />   
+    </headers>
+    <rows>
+        <?php foreach ($this->result as $status => $dataArray): ?>
+            <?php foreach ($dataArray as $data): ?>
+        <row>
+                    <?php
+                    $typeMsg = isset($data['type'])?
+                        ($data['type'] === 'email' ? 'Correo electronico' : 'Telefono') : 'Nulo';
+                    ?>
+            <header value="<?php echo $typeMsg ?>" />
+                    <?php
+                    $statusMsg = $status === 'valid' ? 'Valido' : $status === 'invalid'? 'Invalido' : 'Duplicado';
+                    ?>
+            <header value="<?php echo $data['data'] ?>" />
+            <header value="<?php echo $statusMsg ?>" />
+                    <?php
+                    $errors = '<div><ul>';
+                    if (isset($data['errors'])) {
+                        foreach ($data['errors'] as $name => $desc) {
+                            $errors .= '<li>' . $desc . '</li>';
+                        }
+                    } else {
+                        $errors .= '<li>ninguno</li>';
+                    }
+                    $errors .= '</ul></div>';
+                    ?>
+            <header value="<?php echo $this->escape($errors) ?>" class="encoded" />
+                    <?php
+                    $details = '';
+
+                    if (isset($data['contact'])) {
+
+                        $details .= '<img id="client' . $data['contact']->Customer->id . '" '
+                            . 'src="' . $this->baseUrl() . '/images/icons/user.gif"  '
+                            . 'class="viewContact cursorPointer" '
+                            .'title="Detalle-Haz click para ver los detalles del contacto" />';
+
+                        $details .= '<img id="salesman' . $data['contact']->Customer->Salesman->id . '" '
+                            .'src="' . $this->baseUrl() . '/images/icons/user.gif" '
+                            .'class="viewSalesman cursorPointer"  '
+                            .'title="Detalle-Haz click para ver los detalles del vendedor asignado" />';
+
+                    }
+                    ?>
+            <header value="<?php echo $this->escape($details) ?>" class="encoded" />
+        </row>
+            <?php endforeach ?>
+        <?php endforeach ?>
+    </rows>
+</table>

@@ -1,0 +1,21 @@
+<ul class="topnav">
+    <?php foreach($this->menu as $title => $titleOptions): ?>
+    <li>
+            <?php $menuId = isset($titleOptions['id'])? "id='" . $titleOptions['id'] . "'" : '' ?>
+        <a <?php echo $menuId ?> href=""><?php echo $title ?></a>
+            <?php if (count($titleOptions) > 0): ?>
+        <ul class="subnav">
+                    <?php foreach($titleOptions as $subtitleId => $subtitleOptions): ?>
+            <?php if ('id' == $subtitleId) { continue; }?>
+            <li>
+                <a id="<?php echo $subtitleId?>" 
+                   href="<?php echo isset($subtitleOptions['url'])? $subtitleOptions['url'] : '' ?>"
+                   class="trigger <?php echo isset($subtitleOptions['dataType'])? $subtitleOptions['dataType'] : '' ?>">
+                            <?php echo isset($subtitleOptions['value'])? $subtitleOptions['value'] : '' ?></a>
+            </li>
+                    <?php endforeach ?>
+        </ul>
+            <?php  endif ?>
+    </li>
+    <?php endforeach ?>
+</ul>

@@ -1,0 +1,22 @@
+<?php if (count($this->pricelists) > 0): ?>
+    <?php foreach ($this->pricelists as $pricelist): ?>
+<div class="pricelist">
+    <p>
+        <span>Nombre:</span><span class="name"><?php echo $pricelist->name ?></span><br />
+        <span>Descripcion:</span><span class="description"><?php echo $pricelist->description ?></span><br />
+        <span>Categoria:</span><span class="category"><?php echo $pricelist->PricelistCategory->exists()? $pricelist->PricelistCategory->category_name : 'No definida' ?></span><br />
+        <input type="hidden" id="pricelistId" name="pricelistId" value="<?php echo $pricelist->id ?>" />
+    <p class="actions">
+        <img id="edit" src="<?php echo $this->baseUrl() ?>/images/icons/edit.gif"
+             alt="Editar" class="cursorPointer" title="Editar-Haz click para editar los detalles de la lista de precios" />
+        <img id="delete" src="<?php echo $this->baseUrl() ?>/images/icons/x.gif"
+             alt="Borrar" class="cursorPointer" title="Borrar-Haz click para borrar la lista de precios" />
+        <img id="download" src="<?php echo $this->baseUrl() ?>/images/icons/document.gif"
+             alt="Descargar" class="cursorPointer" title="Descargar-Haz click para descargar la lista de precios" />
+    </p>
+</p>
+</div>
+    <?php endforeach ?>
+<?php else: ?>
+No hay listas de precios
+<?php endif ?>

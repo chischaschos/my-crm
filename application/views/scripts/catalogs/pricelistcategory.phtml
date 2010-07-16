@@ -1,0 +1,40 @@
+<?php echo '<?xml version="1.0" encoding="ISO-8859-1"?>' ?>
+<table>
+    <metadata>
+        <title><?php echo $this->title ?></title>
+        <id><?php echo $this->id ?>Table</id>
+    </metadata>
+    <headers>
+        <header type="string" class="categoryName" value="Nombre de categoria" />
+        <header type="string" class="description" value="Descripción" />
+        <header type="string" class="actions" value="Acciones" />
+    </headers>
+    <rows>
+        <row class="hidden">
+            <header class="categoryName" value="" />
+            <header class="description" value="" />
+                <?php
+                $actions = '<img id="edit" src="' . $this->baseUrl() . '/images/icons/edit.gif"' .
+                    'alt="Editar" class="cursorPointer" title="Haz click para editar los detalles de la categoria" />' .
+                    '<img id="delete" src="' . $this->baseUrl() . '/images/icons/x.gif"' .
+                    'alt="Borrar" class="cursorPointer" title="Haz click para borrar la categoria" />' .
+                    '<input type="hidden" id="plcId" name="plcId" value="" />';
+                ?>
+            <header value="<?php echo $this->escape($actions) ?>" class="actions encoded" />
+        </row>
+        <?php foreach ($this->catalogs as $catalog): ?>
+        <row>
+            <header class="categoryName" value="<?php echo $catalog->category_name ?>" />
+            <header class="description" value="<?php echo $catalog->description ?>" />
+                <?php
+                $actions = '<img id="edit" src="' . $this->baseUrl() . '/images/icons/edit.gif"' .
+                    'alt="Editar" class="cursorPointer" title="Haz click para editar los detalles de la categoria" />' .
+                    '<img id="delete" src="' . $this->baseUrl() . '/images/icons/x.gif"' .
+                    'alt="Borrar" class="cursorPointer" title="Haz click para borrar la categoria" />' .
+                    '<input type="hidden" id="plcId" name="plcId" value="' . $catalog->id . '" />';
+                ?>
+            <header value="<?php echo $this->escape($actions) ?>" class="actions encoded" />
+        </row>
+        <?php endforeach ?>
+    </rows>
+</table>

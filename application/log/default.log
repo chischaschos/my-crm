@@ -1,0 +1,613 @@
+2010-07-16T10:50:16-05:00 INFO (6): Logger initialized
+2010-07-16T10:50:16-05:00 INFO (6): Requested controller_action: index_index
+2010-07-16T10:50:16-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T10:50:16-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Not allowed
+2010-07-16T10:50:16-05:00 INFO (6): Requested controller_action: auth_auth
+2010-07-16T10:50:16-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T10:50:16-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T10:50:17-05:00 INFO (6): Authenticate vs username/password: /
+2010-07-16T10:50:17-05:00 INFO (6): Requested controller_action: error_error
+2010-07-16T10:50:17-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T10:50:17-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Not allowed
+2010-07-16T10:50:17-05:00 INFO (6): Requested controller_action: auth_auth
+2010-07-16T10:50:17-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T10:50:17-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T10:50:17-05:00 INFO (6): Authenticate vs username/password: /
+2010-07-16T10:59:35-05:00 INFO (6): Logger initialized
+2010-07-16T10:59:35-05:00 INFO (6): Requested controller_action: index_index
+2010-07-16T10:59:35-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T10:59:35-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Not allowed
+2010-07-16T10:59:35-05:00 INFO (6): Requested controller_action: auth_auth
+2010-07-16T10:59:35-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T10:59:35-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T10:59:35-05:00 INFO (6): Authenticate vs username/password: /
+2010-07-16T10:59:35-05:00 INFO (6): Requested controller_action: error_error
+2010-07-16T10:59:35-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T10:59:35-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Not allowed
+2010-07-16T10:59:35-05:00 INFO (6): Requested controller_action: auth_auth
+2010-07-16T10:59:35-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T10:59:35-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T10:59:35-05:00 INFO (6): Authenticate vs username/password: /
+2010-07-16T10:59:37-05:00 INFO (6): Logger initialized
+2010-07-16T10:59:37-05:00 INFO (6): Requested controller_action: index_index
+2010-07-16T10:59:37-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T10:59:37-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Not allowed
+2010-07-16T10:59:37-05:00 INFO (6): Requested controller_action: auth_auth
+2010-07-16T10:59:37-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T10:59:37-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T10:59:37-05:00 INFO (6): Authenticate vs username/password: /
+2010-07-16T10:59:37-05:00 INFO (6): Requested controller_action: error_error
+2010-07-16T10:59:37-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T10:59:37-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Not allowed
+2010-07-16T10:59:37-05:00 INFO (6): Requested controller_action: auth_auth
+2010-07-16T10:59:37-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T10:59:37-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T10:59:37-05:00 INFO (6): Authenticate vs username/password: /
+2010-07-16T10:59:37-05:00 INFO (6): Logger initialized
+2010-07-16T10:59:37-05:00 INFO (6): Requested controller_action: index_index
+2010-07-16T10:59:37-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T10:59:37-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Not allowed
+2010-07-16T10:59:37-05:00 INFO (6): Requested controller_action: auth_auth
+2010-07-16T10:59:37-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T10:59:37-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T10:59:37-05:00 INFO (6): Authenticate vs username/password: /
+2010-07-16T10:59:37-05:00 INFO (6): Requested controller_action: error_error
+2010-07-16T10:59:37-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T10:59:37-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Not allowed
+2010-07-16T10:59:37-05:00 INFO (6): Requested controller_action: auth_auth
+2010-07-16T10:59:37-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T10:59:37-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T10:59:37-05:00 INFO (6): Authenticate vs username/password: /
+2010-07-16T10:59:37-05:00 INFO (6): Logger initialized
+2010-07-16T10:59:37-05:00 INFO (6): Requested controller_action: index_index
+2010-07-16T10:59:37-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T10:59:37-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Not allowed
+2010-07-16T10:59:37-05:00 INFO (6): Requested controller_action: auth_auth
+2010-07-16T10:59:37-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T10:59:37-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T10:59:37-05:00 INFO (6): Authenticate vs username/password: /
+2010-07-16T10:59:37-05:00 INFO (6): Requested controller_action: error_error
+2010-07-16T10:59:37-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T10:59:37-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Not allowed
+2010-07-16T10:59:37-05:00 INFO (6): Requested controller_action: auth_auth
+2010-07-16T10:59:37-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T10:59:37-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T10:59:37-05:00 INFO (6): Authenticate vs username/password: /
+2010-07-16T10:59:38-05:00 INFO (6): Logger initialized
+2010-07-16T10:59:38-05:00 INFO (6): Requested controller_action: index_index
+2010-07-16T10:59:38-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T10:59:38-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Not allowed
+2010-07-16T10:59:38-05:00 INFO (6): Requested controller_action: auth_auth
+2010-07-16T10:59:38-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T10:59:38-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T10:59:38-05:00 INFO (6): Authenticate vs username/password: /
+2010-07-16T10:59:38-05:00 INFO (6): Requested controller_action: error_error
+2010-07-16T10:59:38-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T10:59:38-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Not allowed
+2010-07-16T10:59:38-05:00 INFO (6): Requested controller_action: auth_auth
+2010-07-16T10:59:38-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T10:59:38-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T10:59:38-05:00 INFO (6): Authenticate vs username/password: /
+2010-07-16T11:00:02-05:00 INFO (6): Logger initialized
+2010-07-16T11:00:02-05:00 INFO (6): Requested controller_action: index_index
+2010-07-16T11:00:02-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T11:00:02-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Not allowed
+2010-07-16T11:00:02-05:00 INFO (6): Requested controller_action: auth_auth
+2010-07-16T11:00:02-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T11:00:02-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:00:02-05:00 INFO (6): Authenticate vs username/password: /
+2010-07-16T11:00:02-05:00 INFO (6): Requested controller_action: error_error
+2010-07-16T11:00:02-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T11:00:02-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Not allowed
+2010-07-16T11:00:02-05:00 INFO (6): Requested controller_action: auth_auth
+2010-07-16T11:00:02-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T11:00:02-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:00:02-05:00 INFO (6): Authenticate vs username/password: /
+2010-07-16T11:00:47-05:00 INFO (6): Logger initialized
+2010-07-16T11:00:47-05:00 INFO (6): Requested controller_action: index_index
+2010-07-16T11:00:47-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T11:00:47-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Not allowed
+2010-07-16T11:00:47-05:00 INFO (6): Requested controller_action: auth_auth
+2010-07-16T11:00:47-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T11:00:47-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:00:47-05:00 INFO (6): Authenticate vs username/password: /
+2010-07-16T11:00:47-05:00 INFO (6): Requested controller_action: error_error
+2010-07-16T11:00:47-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T11:00:47-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Not allowed
+2010-07-16T11:00:47-05:00 INFO (6): Requested controller_action: auth_auth
+2010-07-16T11:00:47-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T11:00:47-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:00:47-05:00 INFO (6): Authenticate vs username/password: /
+2010-07-16T11:01:53-05:00 INFO (6): Logger initialized
+2010-07-16T11:01:53-05:00 INFO (6): Requested controller_action: index_index
+2010-07-16T11:01:53-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T11:01:53-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Not allowed
+2010-07-16T11:01:53-05:00 INFO (6): Requested controller_action: auth_auth
+2010-07-16T11:01:53-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T11:01:53-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:01:53-05:00 INFO (6): Authenticate vs username/password: /
+2010-07-16T11:01:53-05:00 INFO (6): Doctrine_EventListener_QueryExecution SELECT u.id AS u__id, u.name AS u__name, u.password AS u__password, u.role AS u__role, u.created_at AS u__created_at, u.updated_at AS u__updated_at FROM user u WHERE u.name = ? AND u.password = ?
+2010-07-16T11:01:53-05:00 INFO (6): Doctrine_EventListener_QueryExecution Array
+(
+    [0] => 
+    [1] => 
+)
+
+2010-07-16T11:01:53-05:00 INFO (6): Requested controller_action: error_error
+2010-07-16T11:01:53-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T11:01:53-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Not allowed
+2010-07-16T11:01:53-05:00 INFO (6): Requested controller_action: auth_auth
+2010-07-16T11:01:53-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T11:01:53-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:01:53-05:00 INFO (6): Authenticate vs username/password: /
+2010-07-16T11:01:53-05:00 INFO (6): Doctrine_EventListener_QueryExecution SELECT u.id AS u__id, u.name AS u__name, u.password AS u__password, u.role AS u__role, u.created_at AS u__created_at, u.updated_at AS u__updated_at FROM user u WHERE u.name = ? AND u.password = ?
+2010-07-16T11:01:53-05:00 INFO (6): Doctrine_EventListener_QueryExecution Array
+(
+    [0] => 
+    [1] => 
+)
+
+2010-07-16T11:01:55-05:00 INFO (6): Logger initialized
+2010-07-16T11:01:55-05:00 INFO (6): Requested controller_action: index_index
+2010-07-16T11:01:55-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T11:01:55-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Not allowed
+2010-07-16T11:01:55-05:00 INFO (6): Requested controller_action: auth_auth
+2010-07-16T11:01:55-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T11:01:55-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:01:55-05:00 INFO (6): Authenticate vs username/password: /
+2010-07-16T11:01:55-05:00 INFO (6): Doctrine_EventListener_QueryExecution SELECT u.id AS u__id, u.name AS u__name, u.password AS u__password, u.role AS u__role, u.created_at AS u__created_at, u.updated_at AS u__updated_at FROM user u WHERE u.name = ? AND u.password = ?
+2010-07-16T11:01:55-05:00 INFO (6): Doctrine_EventListener_QueryExecution Array
+(
+    [0] => 
+    [1] => 
+)
+
+2010-07-16T11:01:55-05:00 INFO (6): Requested controller_action: error_error
+2010-07-16T11:01:55-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T11:01:55-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Not allowed
+2010-07-16T11:01:55-05:00 INFO (6): Requested controller_action: auth_auth
+2010-07-16T11:01:55-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T11:01:55-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:01:55-05:00 INFO (6): Authenticate vs username/password: /
+2010-07-16T11:01:55-05:00 INFO (6): Doctrine_EventListener_QueryExecution SELECT u.id AS u__id, u.name AS u__name, u.password AS u__password, u.role AS u__role, u.created_at AS u__created_at, u.updated_at AS u__updated_at FROM user u WHERE u.name = ? AND u.password = ?
+2010-07-16T11:01:55-05:00 INFO (6): Doctrine_EventListener_QueryExecution Array
+(
+    [0] => 
+    [1] => 
+)
+
+2010-07-16T11:02:29-05:00 INFO (6): Logger initialized
+2010-07-16T11:02:29-05:00 INFO (6): Requested controller_action: index_index
+2010-07-16T11:02:29-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T11:02:29-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Not allowed
+2010-07-16T11:02:29-05:00 INFO (6): Requested controller_action: auth_auth
+2010-07-16T11:02:29-05:00 INFO (6): My_Controller_Plugin_Auth role: 
+2010-07-16T11:02:29-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:02:29-05:00 INFO (6): Authenticate vs username/password: /
+2010-07-16T11:02:29-05:00 INFO (6): Doctrine_EventListener_QueryExecution SELECT u.id AS u__id, u.name AS u__name, u.password AS u__password, u.role AS u__role, u.created_at AS u__created_at, u.updated_at AS u__updated_at FROM user u WHERE u.name = ? AND u.password = ?
+2010-07-16T11:02:29-05:00 INFO (6): Doctrine_EventListener_QueryExecution Array
+(
+    [0] => 
+    [1] => 
+)
+
+2010-07-16T11:02:29-05:00 INFO (6): User not found
+2010-07-16T11:02:29-05:00 INFO (6): Doctrine_EventListener_QueryExecution SELECT u.id AS u__id, u.name AS u__name, u.password AS u__password, u.role AS u__role, u.created_at AS u__created_at, u.updated_at AS u__updated_at FROM user u WHERE u.role = ? LIMIT 1
+2010-07-16T11:02:29-05:00 INFO (6): Doctrine_EventListener_QueryExecution Array
+(
+    [0] => GUE
+)
+
+2010-07-16T11:02:29-05:00 INFO (6): PrevController: index
+2010-07-16T11:02:29-05:00 INFO (6): PrevAction: index
+2010-07-16T11:02:29-05:00 INFO (6): Logger initialized
+2010-07-16T11:02:29-05:00 INFO (6): Requested controller_action: index_index
+2010-07-16T11:02:29-05:00 INFO (6): My_Controller_Plugin_Auth role: GUE
+2010-07-16T11:02:29-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:02:29-05:00 INFO (6): Logger initialized
+2010-07-16T11:02:29-05:00 INFO (6): Requested controller_action: javascript_options
+2010-07-16T11:02:29-05:00 INFO (6): My_Controller_Plugin_Auth role: GUE
+2010-07-16T11:02:29-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:02:30-05:00 INFO (6): Logger initialized
+2010-07-16T11:02:30-05:00 INFO (6): Requested controller_action: images_logo-small.png
+2010-07-16T11:02:30-05:00 INFO (6): Logger initialized
+2010-07-16T11:02:30-05:00 INFO (6): Requested controller_action: common_menubar
+2010-07-16T11:02:30-05:00 INFO (6): My_Controller_Plugin_Auth role: GUE
+2010-07-16T11:02:30-05:00 INFO (6): Requested controller_action: error_error
+2010-07-16T11:02:30-05:00 INFO (6): My_Controller_Plugin_Auth role: GUE
+2010-07-16T11:02:30-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:02:30-05:00 ERR (3): exception 'Zend_Acl_Exception' with message 'Resource 'images_logo-small.png' not found' in /var/www/MyCRM/library/Zend/Zend/Acl.php:365
+Stack trace:
+#0 /var/www/MyCRM/library/Zend/Zend/Acl.php(777): Zend_Acl->get('images_logo-sma...')
+#1 /var/www/MyCRM/application/library/My/Controller/Plugin/Auth.php(26): Zend_Acl->isAllowed('GUE', 'images_logo-sma...')
+#2 /var/www/MyCRM/library/Zend/Zend/Controller/Plugin/Broker.php(309): My_Controller_Plugin_Auth->preDispatch(Object(Zend_Controller_Request_Http))
+#3 /var/www/MyCRM/library/Zend/Zend/Controller/Front.php(941): Zend_Controller_Plugin_Broker->preDispatch(Object(Zend_Controller_Request_Http))
+#4 /var/www/MyCRM/library/Zend/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#5 /var/www/MyCRM/library/Zend/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#6 /var/www/MyCRM/application/index.php(13): Zend_Application->run()
+#7 /var/www/MyCRM/public/index.php(3): require('/var/www/MyCRM/...')
+#8 {main}
+2010-07-16T11:02:30-05:00 ERR (3): object
+2010-07-16T11:02:30-05:00 INFO (6): My_Controller_Plugin_Auth role: GUE
+2010-07-16T11:02:30-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:03:01-05:00 INFO (6): Logger initialized
+2010-07-16T11:03:01-05:00 INFO (6): Requested controller_action: auth_login
+2010-07-16T11:03:01-05:00 INFO (6): My_Controller_Plugin_Auth role: GUE
+2010-07-16T11:03:01-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:03:03-05:00 INFO (6): Logger initialized
+2010-07-16T11:03:03-05:00 INFO (6): Requested controller_action: register_home
+2010-07-16T11:03:03-05:00 INFO (6): My_Controller_Plugin_Auth role: GUE
+2010-07-16T11:03:03-05:00 INFO (6): Requested controller_action: error_error
+2010-07-16T11:03:03-05:00 INFO (6): My_Controller_Plugin_Auth role: GUE
+2010-07-16T11:03:03-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:03:03-05:00 ERR (3): exception 'Zend_Acl_Exception' with message 'Resource 'register_home' not found' in /var/www/MyCRM/library/Zend/Zend/Acl.php:365
+Stack trace:
+#0 /var/www/MyCRM/library/Zend/Zend/Acl.php(777): Zend_Acl->get('register_home')
+#1 /var/www/MyCRM/application/library/My/Controller/Plugin/Auth.php(26): Zend_Acl->isAllowed('GUE', 'register_home')
+#2 /var/www/MyCRM/library/Zend/Zend/Controller/Plugin/Broker.php(309): My_Controller_Plugin_Auth->preDispatch(Object(Zend_Controller_Request_Http))
+#3 /var/www/MyCRM/library/Zend/Zend/Controller/Front.php(941): Zend_Controller_Plugin_Broker->preDispatch(Object(Zend_Controller_Request_Http))
+#4 /var/www/MyCRM/library/Zend/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#5 /var/www/MyCRM/library/Zend/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#6 /var/www/MyCRM/application/index.php(13): Zend_Application->run()
+#7 /var/www/MyCRM/public/index.php(3): require('/var/www/MyCRM/...')
+#8 {main}
+2010-07-16T11:03:03-05:00 ERR (3): object
+2010-07-16T11:03:11-05:00 INFO (6): Logger initialized
+2010-07-16T11:03:11-05:00 INFO (6): Requested controller_action: auth_auth
+2010-07-16T11:03:11-05:00 INFO (6): My_Controller_Plugin_Auth role: GUE
+2010-07-16T11:03:11-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:03:11-05:00 INFO (6): Authenticate vs username/password: admin/admin123
+2010-07-16T11:03:11-05:00 INFO (6): Doctrine_EventListener_QueryExecution SELECT u.id AS u__id, u.name AS u__name, u.password AS u__password, u.role AS u__role, u.created_at AS u__created_at, u.updated_at AS u__updated_at FROM user u WHERE u.name = ? AND u.password = ?
+2010-07-16T11:03:11-05:00 INFO (6): Doctrine_EventListener_QueryExecution Array
+(
+    [0] => admin
+    [1] => admin123
+)
+
+2010-07-16T11:03:11-05:00 INFO (6): Found user is : Array
+(
+    [id] => 3
+    [name] => admin
+    [password] => admin123
+    [role] => ADM
+    [created_at] => 2009-07-13 19:34:12
+    [updated_at] => 2009-07-13 19:34:12
+)
+
+2010-07-16T11:03:11-05:00 INFO (6): PrevController: 
+2010-07-16T11:03:11-05:00 INFO (6): PrevAction: 
+2010-07-16T11:03:11-05:00 INFO (6): Logger initialized
+2010-07-16T11:03:11-05:00 INFO (6): Requested controller_action: common_menubar
+2010-07-16T11:03:11-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:03:11-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:03:16-05:00 INFO (6): Logger initialized
+2010-07-16T11:03:16-05:00 INFO (6): Requested controller_action: upload_index
+2010-07-16T11:03:16-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:03:16-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:03:18-05:00 INFO (6): Logger initialized
+2010-07-16T11:03:18-05:00 INFO (6): Requested controller_action: client_searchhome
+2010-07-16T11:03:18-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:03:18-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:03:18-05:00 INFO (6): Logger initialized
+2010-07-16T11:03:18-05:00 INFO (6): Requested controller_action: client_search
+2010-07-16T11:03:18-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:03:18-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:03:18-05:00 INFO (6): Retrieving customers
+2010-07-16T11:03:19-05:00 INFO (6): Logger initialized
+2010-07-16T11:03:19-05:00 INFO (6): Requested controller_action: index_js
+2010-07-16T11:03:19-05:00 INFO (6): Logger initialized
+2010-07-16T11:03:19-05:00 INFO (6): Requested controller_action: index_js
+2010-07-16T11:03:19-05:00 INFO (6): Logger initialized
+2010-07-16T11:03:19-05:00 INFO (6): Requested controller_action: index_js
+2010-07-16T11:03:19-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:03:19-05:00 INFO (6): Logger initialized
+2010-07-16T11:03:19-05:00 INFO (6): Requested controller_action: index_js
+2010-07-16T11:03:19-05:00 INFO (6): Requested controller_action: error_error
+2010-07-16T11:03:19-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:03:19-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:03:19-05:00 ERR (3): exception 'Zend_Acl_Exception' with message 'Resource 'index_js' not found' in /var/www/MyCRM/library/Zend/Zend/Acl.php:365
+Stack trace:
+#0 /var/www/MyCRM/library/Zend/Zend/Acl.php(777): Zend_Acl->get('index_js')
+#1 /var/www/MyCRM/application/library/My/Controller/Plugin/Auth.php(26): Zend_Acl->isAllowed('ADM', 'index_js')
+#2 /var/www/MyCRM/library/Zend/Zend/Controller/Plugin/Broker.php(309): My_Controller_Plugin_Auth->preDispatch(Object(Zend_Controller_Request_Http))
+#3 /var/www/MyCRM/library/Zend/Zend/Controller/Front.php(941): Zend_Controller_Plugin_Broker->preDispatch(Object(Zend_Controller_Request_Http))
+#4 /var/www/MyCRM/library/Zend/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#5 /var/www/MyCRM/library/Zend/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#6 /var/www/MyCRM/application/index.php(13): Zend_Application->run()
+#7 /var/www/MyCRM/public/index.php(3): require('/var/www/MyCRM/...')
+#8 {main}
+2010-07-16T11:03:19-05:00 ERR (3): object
+2010-07-16T11:03:19-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:03:19-05:00 INFO (6): Requested controller_action: error_error
+2010-07-16T11:03:19-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:03:19-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:03:19-05:00 ERR (3): exception 'Zend_Acl_Exception' with message 'Resource 'index_js' not found' in /var/www/MyCRM/library/Zend/Zend/Acl.php:365
+Stack trace:
+#0 /var/www/MyCRM/library/Zend/Zend/Acl.php(777): Zend_Acl->get('index_js')
+#1 /var/www/MyCRM/application/library/My/Controller/Plugin/Auth.php(26): Zend_Acl->isAllowed('ADM', 'index_js')
+#2 /var/www/MyCRM/library/Zend/Zend/Controller/Plugin/Broker.php(309): My_Controller_Plugin_Auth->preDispatch(Object(Zend_Controller_Request_Http))
+#3 /var/www/MyCRM/library/Zend/Zend/Controller/Front.php(941): Zend_Controller_Plugin_Broker->preDispatch(Object(Zend_Controller_Request_Http))
+#4 /var/www/MyCRM/library/Zend/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#5 /var/www/MyCRM/library/Zend/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#6 /var/www/MyCRM/application/index.php(13): Zend_Application->run()
+#7 /var/www/MyCRM/public/index.php(3): require('/var/www/MyCRM/...')
+#8 {main}
+2010-07-16T11:03:19-05:00 ERR (3): object
+2010-07-16T11:03:19-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:03:19-05:00 INFO (6): Requested controller_action: error_error
+2010-07-16T11:03:19-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:03:19-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:03:19-05:00 ERR (3): exception 'Zend_Acl_Exception' with message 'Resource 'index_js' not found' in /var/www/MyCRM/library/Zend/Zend/Acl.php:365
+Stack trace:
+#0 /var/www/MyCRM/library/Zend/Zend/Acl.php(777): Zend_Acl->get('index_js')
+#1 /var/www/MyCRM/application/library/My/Controller/Plugin/Auth.php(26): Zend_Acl->isAllowed('ADM', 'index_js')
+#2 /var/www/MyCRM/library/Zend/Zend/Controller/Plugin/Broker.php(309): My_Controller_Plugin_Auth->preDispatch(Object(Zend_Controller_Request_Http))
+#3 /var/www/MyCRM/library/Zend/Zend/Controller/Front.php(941): Zend_Controller_Plugin_Broker->preDispatch(Object(Zend_Controller_Request_Http))
+#4 /var/www/MyCRM/library/Zend/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#5 /var/www/MyCRM/library/Zend/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#6 /var/www/MyCRM/application/index.php(13): Zend_Application->run()
+#7 /var/www/MyCRM/public/index.php(3): require('/var/www/MyCRM/...')
+#8 {main}
+2010-07-16T11:03:19-05:00 ERR (3): object
+2010-07-16T11:03:19-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:03:19-05:00 INFO (6): Requested controller_action: error_error
+2010-07-16T11:03:19-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:03:19-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:03:19-05:00 ERR (3): exception 'Zend_Acl_Exception' with message 'Resource 'index_js' not found' in /var/www/MyCRM/library/Zend/Zend/Acl.php:365
+Stack trace:
+#0 /var/www/MyCRM/library/Zend/Zend/Acl.php(777): Zend_Acl->get('index_js')
+#1 /var/www/MyCRM/application/library/My/Controller/Plugin/Auth.php(26): Zend_Acl->isAllowed('ADM', 'index_js')
+#2 /var/www/MyCRM/library/Zend/Zend/Controller/Plugin/Broker.php(309): My_Controller_Plugin_Auth->preDispatch(Object(Zend_Controller_Request_Http))
+#3 /var/www/MyCRM/library/Zend/Zend/Controller/Front.php(941): Zend_Controller_Plugin_Broker->preDispatch(Object(Zend_Controller_Request_Http))
+#4 /var/www/MyCRM/library/Zend/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#5 /var/www/MyCRM/library/Zend/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#6 /var/www/MyCRM/application/index.php(13): Zend_Application->run()
+#7 /var/www/MyCRM/public/index.php(3): require('/var/www/MyCRM/...')
+#8 {main}
+2010-07-16T11:03:19-05:00 ERR (3): object
+2010-07-16T11:03:22-05:00 INFO (6): Logger initialized
+2010-07-16T11:03:22-05:00 INFO (6): Requested controller_action: client_addhome
+2010-07-16T11:03:22-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:03:22-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:03:30-05:00 INFO (6): Logger initialized
+2010-07-16T11:03:30-05:00 INFO (6): Requested controller_action: salesman_assignhome
+2010-07-16T11:03:30-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:03:30-05:00 INFO (6): Requested controller_action: error_error
+2010-07-16T11:03:30-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:03:30-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:03:30-05:00 ERR (3): exception 'Zend_Acl_Exception' with message 'Resource 'salesman_assignhome' not found' in /var/www/MyCRM/library/Zend/Zend/Acl.php:365
+Stack trace:
+#0 /var/www/MyCRM/library/Zend/Zend/Acl.php(777): Zend_Acl->get('salesman_assign...')
+#1 /var/www/MyCRM/application/library/My/Controller/Plugin/Auth.php(26): Zend_Acl->isAllowed('ADM', 'salesman_assign...')
+#2 /var/www/MyCRM/library/Zend/Zend/Controller/Plugin/Broker.php(309): My_Controller_Plugin_Auth->preDispatch(Object(Zend_Controller_Request_Http))
+#3 /var/www/MyCRM/library/Zend/Zend/Controller/Front.php(941): Zend_Controller_Plugin_Broker->preDispatch(Object(Zend_Controller_Request_Http))
+#4 /var/www/MyCRM/library/Zend/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#5 /var/www/MyCRM/library/Zend/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#6 /var/www/MyCRM/application/index.php(13): Zend_Application->run()
+#7 /var/www/MyCRM/public/index.php(3): require('/var/www/MyCRM/...')
+#8 {main}
+2010-07-16T11:03:30-05:00 ERR (3): object
+2010-07-16T11:03:33-05:00 INFO (6): Logger initialized
+2010-07-16T11:03:33-05:00 INFO (6): Requested controller_action: salesman_searchhome
+2010-07-16T11:03:33-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:03:33-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:03:33-05:00 INFO (6): Logger initialized
+2010-07-16T11:03:33-05:00 INFO (6): Requested controller_action: salesman_search
+2010-07-16T11:03:33-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:03:33-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:03:33-05:00 INFO (6): Retrieving salesmans
+2010-07-16T11:03:36-05:00 INFO (6): Logger initialized
+2010-07-16T11:03:36-05:00 INFO (6): Requested controller_action: salesman_view
+2010-07-16T11:03:36-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:03:36-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:03:36-05:00 INFO (6): View salesmanId: 1
+2010-07-16T11:03:36-05:00 INFO (6): Doctrine_EventListener_QueryExecution SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email AS s__email, s.telephone AS s__telephone, s.user_id AS s__user_id, s.address_id AS s__address_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM salesman s WHERE s.id = ? LIMIT 1
+2010-07-16T11:03:36-05:00 INFO (6): Doctrine_EventListener_QueryExecution Array
+(
+    [0] => 1
+)
+
+2010-07-16T11:03:39-05:00 INFO (6): Logger initialized
+2010-07-16T11:03:39-05:00 INFO (6): Requested controller_action: salesman_view
+2010-07-16T11:03:39-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:03:39-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:03:39-05:00 INFO (6): View salesmanId: 2
+2010-07-16T11:03:39-05:00 INFO (6): Doctrine_EventListener_QueryExecution SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email AS s__email, s.telephone AS s__telephone, s.user_id AS s__user_id, s.address_id AS s__address_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM salesman s WHERE s.id = ? LIMIT 1
+2010-07-16T11:03:39-05:00 INFO (6): Doctrine_EventListener_QueryExecution Array
+(
+    [0] => 2
+)
+
+2010-07-16T11:03:42-05:00 INFO (6): Logger initialized
+2010-07-16T11:03:42-05:00 INFO (6): Requested controller_action: pricelist_home
+2010-07-16T11:03:42-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:03:42-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:03:46-05:00 INFO (6): Logger initialized
+2010-07-16T11:03:46-05:00 INFO (6): Requested controller_action: report_reporta
+2010-07-16T11:03:47-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:03:47-05:00 INFO (6): Requested controller_action: error_error
+2010-07-16T11:03:47-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:03:47-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:03:47-05:00 ERR (3): exception 'Zend_Acl_Exception' with message 'Resource 'report_reporta' not found' in /var/www/MyCRM/library/Zend/Zend/Acl.php:365
+Stack trace:
+#0 /var/www/MyCRM/library/Zend/Zend/Acl.php(777): Zend_Acl->get('report_reporta')
+#1 /var/www/MyCRM/application/library/My/Controller/Plugin/Auth.php(26): Zend_Acl->isAllowed('ADM', 'report_reporta')
+#2 /var/www/MyCRM/library/Zend/Zend/Controller/Plugin/Broker.php(309): My_Controller_Plugin_Auth->preDispatch(Object(Zend_Controller_Request_Http))
+#3 /var/www/MyCRM/library/Zend/Zend/Controller/Front.php(941): Zend_Controller_Plugin_Broker->preDispatch(Object(Zend_Controller_Request_Http))
+#4 /var/www/MyCRM/library/Zend/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#5 /var/www/MyCRM/library/Zend/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#6 /var/www/MyCRM/application/index.php(13): Zend_Application->run()
+#7 /var/www/MyCRM/public/index.php(3): require('/var/www/MyCRM/...')
+#8 {main}
+2010-07-16T11:03:47-05:00 ERR (3): object
+2010-07-16T11:03:49-05:00 INFO (6): Logger initialized
+2010-07-16T11:03:49-05:00 INFO (6): Requested controller_action: message_index
+2010-07-16T11:03:49-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:03:49-05:00 INFO (6): Requested controller_action: error_error
+2010-07-16T11:03:49-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:03:49-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:03:49-05:00 ERR (3): exception 'Zend_Acl_Exception' with message 'Resource 'message_index' not found' in /var/www/MyCRM/library/Zend/Zend/Acl.php:365
+Stack trace:
+#0 /var/www/MyCRM/library/Zend/Zend/Acl.php(777): Zend_Acl->get('message_index')
+#1 /var/www/MyCRM/application/library/My/Controller/Plugin/Auth.php(26): Zend_Acl->isAllowed('ADM', 'message_index')
+#2 /var/www/MyCRM/library/Zend/Zend/Controller/Plugin/Broker.php(309): My_Controller_Plugin_Auth->preDispatch(Object(Zend_Controller_Request_Http))
+#3 /var/www/MyCRM/library/Zend/Zend/Controller/Front.php(941): Zend_Controller_Plugin_Broker->preDispatch(Object(Zend_Controller_Request_Http))
+#4 /var/www/MyCRM/library/Zend/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#5 /var/www/MyCRM/library/Zend/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#6 /var/www/MyCRM/application/index.php(13): Zend_Application->run()
+#7 /var/www/MyCRM/public/index.php(3): require('/var/www/MyCRM/...')
+#8 {main}
+2010-07-16T11:03:49-05:00 ERR (3): object
+2010-07-16T11:03:52-05:00 INFO (6): Logger initialized
+2010-07-16T11:03:52-05:00 INFO (6): Requested controller_action: catalogs_home
+2010-07-16T11:03:52-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:03:52-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:03:52-05:00 INFO (6): Logger initialized
+2010-07-16T11:03:52-05:00 INFO (6): Requested controller_action: catalogs_view
+2010-07-16T11:03:52-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:03:52-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:04:11-05:00 INFO (6): Logger initialized
+2010-07-16T11:04:11-05:00 INFO (6): Requested controller_action: client_searchhome
+2010-07-16T11:04:11-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:04:11-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:04:11-05:00 INFO (6): Logger initialized
+2010-07-16T11:04:11-05:00 INFO (6): Requested controller_action: client_search
+2010-07-16T11:04:11-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:04:11-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:04:11-05:00 INFO (6): Retrieving customers
+2010-07-16T11:04:14-05:00 INFO (6): Logger initialized
+2010-07-16T11:04:14-05:00 INFO (6): Requested controller_action: client_view
+2010-07-16T11:04:14-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:04:14-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:04:14-05:00 INFO (6): View clientId: 1
+2010-07-16T11:04:14-05:00 INFO (6): Doctrine_EventListener_QueryExecution SELECT c.id AS c__id, c.razon_social AS c__razon_social, c.representante_legal AS c__representante_legal, c.nombre_comercial AS c__nombre_comercial, c.rfc AS c__rfc, c.giro_comercial AS c__giro_comercial, c.salesman_id AS c__salesman_id, c.sales_group AS c__sales_group, c.user_id AS c__user_id, c.pricelist_category_id AS c__pricelist_category_id, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM customer c WHERE c.id = ? LIMIT 1
+2010-07-16T11:04:14-05:00 INFO (6): Doctrine_EventListener_QueryExecution Array
+(
+    [0] => 1
+)
+
+2010-07-16T11:04:14-05:00 INFO (6): Doctrine_EventListener_QueryExecution SELECT c.id AS c__id, c.first_name AS c__first_name, c.last_name AS c__last_name, c.email AS c__email, c.telephone AS c__telephone, c.customer_id AS c__customer_id, c.address_id AS c__address_id, c.created_at AS c__created_at, c.updated_at AS c__updated_at FROM contact c WHERE c.customer_id = ?
+2010-07-16T11:04:14-05:00 INFO (6): Doctrine_EventListener_QueryExecution Array
+(
+    [0] => 1
+)
+
+2010-07-16T11:04:14-05:00 INFO (6): Doctrine_EventListener_QueryExecution SELECT a.id AS a__id, a.entre_calles AS a__entre_calles, a.colonia AS a__colonia, a.delegacion_municipio AS a__delegacion_municipio, a.estado AS a__estado, a.codigo_postal AS a__codigo_postal, a.country AS a__country, a.created_at AS a__created_at, a.updated_at AS a__updated_at FROM address a WHERE a.id = ?
+2010-07-16T11:04:14-05:00 INFO (6): Doctrine_EventListener_QueryExecution Array
+(
+    [0] => 1
+)
+
+2010-07-16T11:04:20-05:00 INFO (6): Logger initialized
+2010-07-16T11:04:20-05:00 INFO (6): Requested controller_action: salesman_view
+2010-07-16T11:04:20-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:04:20-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:04:20-05:00 INFO (6): View salesmanId: 1
+2010-07-16T11:04:20-05:00 INFO (6): Doctrine_EventListener_QueryExecution SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email AS s__email, s.telephone AS s__telephone, s.user_id AS s__user_id, s.address_id AS s__address_id, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM salesman s WHERE s.id = ? LIMIT 1
+2010-07-16T11:04:20-05:00 INFO (6): Doctrine_EventListener_QueryExecution Array
+(
+    [0] => 1
+)
+
+2010-07-16T11:04:33-05:00 INFO (6): Logger initialized
+2010-07-16T11:04:33-05:00 INFO (6): Requested controller_action: catalogs_home
+2010-07-16T11:04:33-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:04:33-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:04:34-05:00 INFO (6): Logger initialized
+2010-07-16T11:04:34-05:00 INFO (6): Requested controller_action: catalogs_view
+2010-07-16T11:04:34-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:04:34-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:04:39-05:00 INFO (6): Logger initialized
+2010-07-16T11:04:39-05:00 INFO (6): Requested controller_action: catalogs_add
+2010-07-16T11:04:39-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:04:39-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:04:39-05:00 INFO (6): Doctrine_EventListener_QueryExecution SELECT p.id AS p__id, p.category_name AS p__category_name, p.description AS p__description, p.pricelist_id AS p__pricelist_id, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM pricelist_category p WHERE p.category_name = ?
+2010-07-16T11:04:39-05:00 INFO (6): Doctrine_EventListener_QueryExecution Array
+(
+    [0] => asd
+)
+
+2010-07-16T11:04:39-05:00 INFO (6): Doctrine_EventListener_QueryExecution INSERT INTO pricelist_category (category_name, description, created_at, updated_at) VALUES (?, ?, ?, ?)
+2010-07-16T11:04:39-05:00 INFO (6): Doctrine_EventListener_QueryExecution Array
+(
+    [0] => asd
+    [1] => asf
+    [2] => 2010-07-16 11:04:39
+    [3] => 2010-07-16 11:04:39
+)
+
+2010-07-16T11:04:48-05:00 INFO (6): Logger initialized
+2010-07-16T11:04:48-05:00 INFO (6): Requested controller_action: catalogs_add
+2010-07-16T11:04:48-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:04:48-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:04:48-05:00 INFO (6): Doctrine_EventListener_QueryExecution SELECT p.id AS p__id, p.category_name AS p__category_name, p.description AS p__description, p.pricelist_id AS p__pricelist_id, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM pricelist_category p WHERE p.category_name = ?
+2010-07-16T11:04:48-05:00 INFO (6): Doctrine_EventListener_QueryExecution Array
+(
+    [0] => asd
+)
+
+2010-07-16T11:04:59-05:00 INFO (6): Logger initialized
+2010-07-16T11:04:59-05:00 INFO (6): Requested controller_action: catalogs_add
+2010-07-16T11:04:59-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:04:59-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:04:59-05:00 INFO (6): Doctrine_EventListener_QueryExecution SELECT p.id AS p__id, p.category_name AS p__category_name, p.description AS p__description, p.pricelist_id AS p__pricelist_id, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM pricelist_category p WHERE p.category_name = ?
+2010-07-16T11:04:59-05:00 INFO (6): Doctrine_EventListener_QueryExecution Array
+(
+    [0] => dasdasdasdasd
+)
+
+2010-07-16T11:04:59-05:00 INFO (6): Doctrine_EventListener_QueryExecution INSERT INTO pricelist_category (category_name, description, created_at, updated_at) VALUES (?, ?, ?, ?)
+2010-07-16T11:04:59-05:00 INFO (6): Doctrine_EventListener_QueryExecution Array
+(
+    [0] => dasdasdasdasd
+    [1] => sdasd
+    [2] => 2010-07-16 11:04:59
+    [3] => 2010-07-16 11:04:59
+)
+
+2010-07-16T11:05:06-05:00 INFO (6): Logger initialized
+2010-07-16T11:05:06-05:00 INFO (6): Requested controller_action: catalogs_home
+2010-07-16T11:05:06-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:05:06-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:05:06-05:00 INFO (6): Logger initialized
+2010-07-16T11:05:06-05:00 INFO (6): Requested controller_action: catalogs_view
+2010-07-16T11:05:06-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:05:06-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:05:20-05:00 INFO (6): Logger initialized
+2010-07-16T11:05:20-05:00 INFO (6): Requested controller_action: index_index
+2010-07-16T11:05:20-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:05:20-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:05:20-05:00 INFO (6): Logger initialized
+2010-07-16T11:05:20-05:00 INFO (6): Requested controller_action: javascript_options
+2010-07-16T11:05:20-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:05:20-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:05:20-05:00 INFO (6): Logger initialized
+2010-07-16T11:05:21-05:00 INFO (6): Requested controller_action: images_logo-small.png
+2010-07-16T11:05:21-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:05:21-05:00 INFO (6): Requested controller_action: error_error
+2010-07-16T11:05:21-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:05:21-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:05:21-05:00 INFO (6): Logger initialized
+2010-07-16T11:05:21-05:00 INFO (6): Requested controller_action: common_menubar
+2010-07-16T11:05:21-05:00 ERR (3): exception 'Zend_Acl_Exception' with message 'Resource 'images_logo-small.png' not found' in /var/www/MyCRM/library/Zend/Zend/Acl.php:365
+Stack trace:
+#0 /var/www/MyCRM/library/Zend/Zend/Acl.php(777): Zend_Acl->get('images_logo-sma...')
+#1 /var/www/MyCRM/application/library/My/Controller/Plugin/Auth.php(26): Zend_Acl->isAllowed('ADM', 'images_logo-sma...')
+#2 /var/www/MyCRM/library/Zend/Zend/Controller/Plugin/Broker.php(309): My_Controller_Plugin_Auth->preDispatch(Object(Zend_Controller_Request_Http))
+#3 /var/www/MyCRM/library/Zend/Zend/Controller/Front.php(941): Zend_Controller_Plugin_Broker->preDispatch(Object(Zend_Controller_Request_Http))
+#4 /var/www/MyCRM/library/Zend/Zend/Application/Bootstrap/Bootstrap.php(97): Zend_Controller_Front->dispatch()
+#5 /var/www/MyCRM/library/Zend/Zend/Application.php(366): Zend_Application_Bootstrap_Bootstrap->run()
+#6 /var/www/MyCRM/application/index.php(13): Zend_Application->run()
+#7 /var/www/MyCRM/public/index.php(3): require('/var/www/MyCRM/...')
+#8 {main}
+2010-07-16T11:05:21-05:00 ERR (3): object
+2010-07-16T11:05:21-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:05:21-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:05:23-05:00 INFO (6): Logger initialized
+2010-07-16T11:05:23-05:00 INFO (6): Requested controller_action: catalogs_home
+2010-07-16T11:05:23-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:05:23-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
+2010-07-16T11:05:23-05:00 INFO (6): Logger initialized
+2010-07-16T11:05:23-05:00 INFO (6): Requested controller_action: catalogs_view
+2010-07-16T11:05:23-05:00 INFO (6): My_Controller_Plugin_Auth role: ADM
+2010-07-16T11:05:23-05:00 INFO (6): My_Controller_Plugin_Auth Acl result: Allowed
